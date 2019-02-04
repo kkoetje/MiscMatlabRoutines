@@ -1,3 +1,5 @@
+%% OUTDATED -- USE mySpectra2.m INSTEAD!
+
 function [SSband, freqBand, DOF, Gj] = mySpectra(ts, NumBands,NumEns,delta, window_id)%,windowtype_h_or_b) %,varargin) %delta is the 1/f
 numinputs = nargin; %optional window, boxcar or hanning
 
